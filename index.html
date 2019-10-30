@@ -4,7 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/dropdown.css" />
     <title>Dulce dynamic</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/09/pawsdogbows-e1504292412801.jpg?auto=format&q=60&fit=max&w=930"
+          alt="paws-dog-bow"
+        />
+      </div>
+      <ul class="menu">
+        <li>Home</li>
+        <li>News</li>
+        <li id="shop">
+          Shop
+          <ul id="dropdown">
+            <li>Item 1</li>
+            <li>Item 2</li>
+          </ul>
+        </li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <script src="js/dropdown.js"></script>
+  </body>
 </html>
